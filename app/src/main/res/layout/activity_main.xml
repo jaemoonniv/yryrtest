@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDF4F4"
+    android:orientation="vertical"
+    tools:context=".login">
+
+
+    <EditText
+        android:id="@+id/main_email"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+        android:textColorHint="#C64E4E4E"
+        app:layout_constraintBottom_toTopOf="@+id/main_pwd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/main_pwd"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Passward"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textColorHint="#C64E4E4E"
+        app:layout_constraintBottom_toTopOf="@+id/main_login_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/main_join_btn"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_marginBottom="76dp"
+        android:background="#FF314F"
+        android:text="sign up"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/main_login_btn"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_marginBottom="10dp"
+        android:background="#F88080"
+        android:text="Login"
+        app:layout_constraintBottom_toTopOf="@+id/main_join_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:layout_marginTop="10dp"
+        android:shadowColor="#ffffff"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="3"
+        android:text="자동로그인"
+        android:textColor="#5698E4"
+        app:layout_constraintEnd_toEndOf="@+id/main_join_btn"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_join_btn" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/heart256" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

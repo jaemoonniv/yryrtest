@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "472825559944",
+    "firebase_url": "https://yryr-15083.firebaseio.com",
+    "project_id": "yryr-15083",
+    "storage_bucket": "yryr-15083.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472825559944:android:51b1d3c591f321f5c9183d",
+        "android_client_info": {
+          "package_name": "com.moozzi.yryr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472825559944-coe1srpiugc7u52427ukcbshheqjq1v4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJiQcRR56odV3OioW-lIKrdTUbPf0xmn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472825559944-coe1srpiugc7u52427ukcbshheqjq1v4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472825559944:android:f1d9d6c0137c162ac9183d",
+        "android_client_info": {
+          "package_name": "com.moozzi.yryrtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472825559944-91n8l1iqbeniekbu9unthij0diccmulh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moozzi.yryrtest",
+            "certificate_hash": "94fe6416809e3b571418df3d7ca0c836d9d60790"
+          }
+        },
+        {
+          "client_id": "472825559944-coe1srpiugc7u52427ukcbshheqjq1v4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJiQcRR56odV3OioW-lIKrdTUbPf0xmn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472825559944-coe1srpiugc7u52427ukcbshheqjq1v4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
